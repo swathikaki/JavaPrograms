@@ -33,27 +33,27 @@ public class Student {
 		
 		//System.out.println(s1.name + " " + s1.age + " " + s1.id);
 		//System.out.println(s2.name + " " + s2.age + " " + s2.id);
-		System.out.println(s3.name + " " + s3.age + " " + s3.id + " " + s3.CourseList);
+		System.out.println(s3.name + " " + s3.age + " " + s3.id + " " + s3.Courses);
 		
 		//s1 = s2;  //reference transferring
 		
 		System.out.println("After assigning s1 to s2");
-		System.out.println(s1.name + " " + s1.age + " " + s1.id);
-		System.out.println(s2.name + " " + s2.age + " " + s2.id);
+//		System.out.println(s1.name + " " + s1.age + " " + s1.id);
+//		System.out.println(s2.name + " " + s2.age + " " + s2.id);
 		System.out.println(s3.name + " " + s3.age + " " + s3.id);
 		
-		s2 = s3; //S2 is pointing to s3
+		//s2 = s3; //S2 is pointing to s3
 		
 		System.out.println("After assigning s2 to s3");
-		System.out.println(s1.name + " " + s1.age + " " + s1.id);
-		System.out.println(s2.name + " " + s2.age + " " + s2.id);
+//		System.out.println(s1.name + " " + s1.age + " " + s1.id);
+//		System.out.println(s2.name + " " + s2.age + " " + s2.id);
 		System.out.println(s3.name + " " + s3.age + " " + s3.id);
 		
-		s3 = s1; //Now s3 is pointing to s1 which is already pointing to s2, so s3 will get s2 values
+		//s3 = s1; //Now s3 is pointing to s1 which is already pointing to s2, so s3 will get s2 values
 		
-		System.out.println("After assigning s3 to s1");
-		System.out.println(s1.name + " " + s1.age + " " + s1.id);
-		System.out.println(s2.name + " " + s2.age + " " + s2.id);
+//		System.out.println("After assigning s3 to s1");
+//		System.out.println(s1.name + " " + s1.age + " " + s1.id);
+//		System.out.println(s2.name + " " + s2.age + " " + s2.id);
 		System.out.println(s3.name + " " + s3.age + " " + s3.id);
 		
 
